@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Timer'),
+        title: Text('Timer Stream'),
       ),
       body: Center(
         child: Column(
@@ -42,10 +42,9 @@ class HomeScreen extends StatelessWidget {
             SizedBox(height: 20,),
             StreamBuilder<String>(
                 stream: _timerBloc.streamButton,
-                initialData: 'Play',
                 builder: (context, snapshot) {
                   return RaisedButton(
-                    child: Text(snapshot.data),
+                    child: Text(snapshot.data ?? ''),
                     onPressed: _timerBloc.onPressed,
                   );
                 }

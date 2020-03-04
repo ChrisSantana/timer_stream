@@ -1,7 +1,6 @@
 import 'dart:async';
 
 const iniciar = 'Iniciar';
-const continuar = 'Continuar';
 const pause = 'Pausar';
 
 class TimerBloc {
@@ -59,7 +58,7 @@ class TimerBloc {
 
   void onPressed() {
     if (_timer != null && _timer.isActive){
-      _controllerButton.sink.add(continuar);
+      _controllerButton.sink.add(iniciar);
       _onPause();
     } else {
       _controllerButton.sink.add(pause);
