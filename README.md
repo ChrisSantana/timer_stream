@@ -41,7 +41,7 @@ Nesse diretório estão os Widgets, os quais, podem ser utilizados/reusáveis em
 
 ## Configuração
 
-Baixe o SDK do [Flutter](https://flutter.dev/docs/get-started/install/windows) específico para o Windows e extraia o arquivo zip em um diretório do seu interesse. . Exemplo: c:\src\flutter.
+Baixe o SDK do [Flutter](https://flutter.dev/docs/get-started/install/windows) específico para o Windows e extraia o arquivo zip em um diretório do seu interesse. Exemplo: c:\src\flutter.
 
 Após isso, adicione o caminho flutter/bin nas variáveis de ambiente e rode o comando:
 
