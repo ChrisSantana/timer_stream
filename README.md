@@ -56,6 +56,6 @@ Observação: Não instale o Flutter em um diretório que exija privilégios.
 
 
 
-## Copyright ©
+## Author
 
 [Christiano Santana](https://github.com/ChrisSantana)
